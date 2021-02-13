@@ -1,0 +1,1 @@
+Node with babel template

@@ -1,0 +1,32 @@
+{
+  "name": "node-babel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/fdxs-alt/node-babel.git",
+  "author": "<kuba1207710@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --exec babel-node src/index.js",
+    "build": "babel src/index.js --out-file dist/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "pino-http": "^5.5.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.16",
+    "@babel/core": "^7.12.16",
+    "@babel/node": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "nodemon": "^2.0.7"
+  }
+}
